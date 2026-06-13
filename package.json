@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-tcg-monitor",
+  "version": "1.0.0",
+  "description": "Telegram bot to monitor Pokemon TCG special boxes on LevelUpShop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.63.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
